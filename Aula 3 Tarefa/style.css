@@ -1,5 +1,5 @@
 /* Seletor por ID */
-img
+img 
 {
     width: 225px;
     height: 200px;
@@ -8,9 +8,24 @@ img
     margin: 15px;
 }
 
-body
+body 
 {
-    background-image: linear-gradient(rgb(121, 10, 10), rgb(31, 30, 32));
+    background-image: linear-gradient(rgb(158, 158, 158), rgb(158, 158, 158));
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3
+{
+    margin: 10px;
+}
+
+p
+{
+    margin: 5px;
 }
 
 /* Menu */
@@ -37,4 +52,12 @@ a {
 
 a:hover {
     color: #de2e2e;
+}
+
+/* Rodape */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #fff;
 }
