@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2 Tarefa</title>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <form action="https://www.w3schools.com/action_page.php">
+        <label for="date">Data:</label><br>
+        <input type="date" id="data" name="data"><br>
+        <br>
+        <label for="usuario">Usuario:</label><br>
+        <input type="text" name="usuario" id="usuario"><br>
+        <label for="senha">Senha:</label><br>
+        <input type="password" name="senha" id="senha">
+        <hr>
+
+        <h2>Endereço</h2>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br>
+        <label for="endereco">Endereço:</label><br>
+        <input type="text" id="endereco" name="endereco"><br>
+        <label for="numero">Numero:</label><br>
+        <input type="number" name="numero" id="numero"><br>
+        <label for="complemento">Complemento:</label><br>
+        <input type="text" id="complemento" name="complemento"><br>
+        <label for="cidade">Cidade:</label><br>
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="Rio Branco">
+            <option value="Maceió">
+            <option value="Macapá">
+            <option value="Manaus">
+            <option value="Salvador">
+            <option value="Fortaleza">
+            <option value="Goiânia">
+            <option value="Belo Horizonte">
+            <option value="Rio de Janeiro">
+            <option value="Boa Vista">
+            <option value="São Paulo">
+            <option value="Sorocaba">
+            <option value="Palmas">
+        </datalist> <br>
+        <label for="estados">Estados:</label><br>
+        <select name="estados" id="estados">
+            <option value="acre">Acre</option>
+            <option value="alagoas">Alagoas</option>
+            <option value="amapa">Amapá</option>
+            <option value="amazonas">Amazonas</option>
+            <option value="bahia">Bahia</option>
+            <option value="ceara">Ceara</option>
+            <option value="goias">Goias</option>
+            <option value="minas">Minas Gerais</option>
+            <option value="rio">Rio de Janeiro</option>
+            <option value="roraima">Roraima</option>
+            <option value="sp">São Paulo</option>
+            <option value="tocantins">Tocantins</option>
+        </select> <br>
+        <label for="cep">CEP:</label><br>
+        <input type="text" name="cep" id="cep"><br>
+        <hr>
+        <h2>Dados Pessoais</h2>
+        <label for="genero">Gênero:</label><br>
+        <input type="radio" id="masculino" name="genero" value="Masculino" checked>
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="Feminino" name="genero" value="Feminino">
+        <label for="feminino">Feminino</label><br>
+        <input type="radio" id="nao falar" name="genero" value="Prefiro não falar">
+        <label for="nao falar">Prefiro não falar</label><br><br>
+
+        <label for="curso">Curso:</label><br>
+        <input type="checkbox" id="cursos" name="cursos" value="ADS">
+        <label for="curso">ADS</label><br>
+        <input type="checkbox" id="cursos" name="cursos" value="Jogos">
+        <label for="curso">Jogos</label><br>
+        <input type="checkbox" id="cursos" name="cursos" value="Gestao">
+        <label for="curso">Gestão de TI</label><br>
+        <input type="checkbox" name="cursos" id="cursos" value="Banco de dados">
+        <label for="curso">Banco de dados</label><br>
+        <input type="checkbox" name="cursos" id="cursos" value="Eng. da computação">
+        <label for="curso">Eng. da computação</label><br><br>
+        <label for="modelo">Modelo:</label><br>
+        <input type="radio" id="presencial" name="modelo" value="Presencial" checked>
+        <label for="presencial">Presencial</label><br>
+        <input type="radio" id="ead" name="modelo" value="EAD">
+        <label for="ead">EAD</label><br>
+        <input type="radio" id="semi" name="modelo" value="semi">
+        <label for="semi">Semi presencial</label><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>

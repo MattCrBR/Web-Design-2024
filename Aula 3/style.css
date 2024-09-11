@@ -1,0 +1,80 @@
+/* Seletor por Tag */
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+p 
+{
+    color: rgb(255, 0, 0);
+}
+
+/* Seletor por Classe */
+.blue
+{
+    color: blue;
+    background-color: grey;
+    text-align: center;
+    padding-left: 50px;
+    margin-left: 50px;
+}
+
+.fontImpact
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Seletor por ID*/
+#meuId
+{
+    color: green;
+    text-decoration: none;
+}
+
+img
+{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 15%;
+    margin: 100px;
+}
+
+.nerko {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* Menu */
+nav {
+    background-color: #000000;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+a:hover {
+    color: #de2e2e;
+}
