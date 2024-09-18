@@ -1,11 +1,219 @@
-.ex01
-{
+img {
+    width: 120px;
+    height: 120px;
+}
+
+.verde {
+    border-radius: 50%;
+    border: 5px solid #25fc09;
+}
+
+.amarelo {
+    border-radius: 50%;
+    border: 5px solid #c9bf07;
+}
+
+.vermelho {
+    border-radius: 50%;
+    border: 5px solid #ee0b0b;
+}
+
+.ex01 {
     height: 97vh;
     display: flex;
     justify-content: flex-end
 }
 
-.ex02
-{
+.ex02 {
     height: 97vh;
+    display: flex;
+    justify-content: center;
+}
+
+.ex03 {
+    height: 97vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ex04 {
+    height: 97vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ex05 {
+    height: 97vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.ex06 {
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ex07 {
+    height: 97vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.ex08 {
+    height: 97vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.ex09 {
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.ex10 {
+    height: 97vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.ex11 {
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.ex12 {
+    height: 97vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.ex13 {
+    height: 97vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.ex14 {
+    height: 97vh;
+    display: flex;
+}
+
+.ex14 .amarelo {
+    order: 1;
+}
+
+.ex15 {
+    height: 97vh;
+    display: flex;
+}
+
+.ex15 .vermelho {
+    order: -3;
+}
+
+.ex16 {
+    height: 97vh;
+    display: flex;
+    align-items: flex-start;
+}
+
+.ex16 .amarelo {
+    align-self: flex-end;
+}
+
+.ex17 {
+    height: 97vh;
+    display: flex;
+    align-items: flex-start;
+}
+
+.ex17 .amarelo {
+    align-self: flex-end;
+    order: 1;
+}
+
+.ex18 {
+    height: 97vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ex18 img {
+    height: 300px;
+    width: 300px
+}
+
+.ex19 {
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.ex19 img {
+    height: 170px;
+    width:170px
+}
+
+.ex20 {
+    height: 97vh;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.ex20 img {
+    height: 170px;
+    width:170px
+}
+
+.ex21 {
+    height: 97vh;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.ex22 {
+    height: 97vh;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;  
+}
+
+.ex23 {
+    height: 97vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+}
+
+.ex23 img {
+    height: 170px;
+    width: 170px;
+}
+
+.ex24 {
+    height: 97vh;
+    display: flex;
+    flex-flow: column-reverse wrap-reverse;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.ex24 img {
+    height: 170px;
+    width: 170px;
 }
