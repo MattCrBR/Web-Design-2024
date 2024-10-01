@@ -1,0 +1,90 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+h1, p{
+    font-family: 'lato', sans-serif;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.text-first{
+    margin-bottom: 200px;
+    color: #333333;
+}
+
+.text{
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    width: 482px;
+    height: 60px;
+}
+
+.logos{
+    margin-top: 91px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao{
+    width: 222px;
+    height: 66px;
+    border-radius: 35px;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: #333333;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs{
+    width: 625px;
+    height: 865px;
+}
+
+.img-donut{
+    display: flex;
+    width: 625px;
+    height: 925px;
+}
+
+.div-botao{
+    display: flex;
+    justify-content: center;
+}
+
+.img-pt1{
+    padding-bottom: 200px;
+}
+
+.d-blue{
+    margin-bottom: 48px;
+}
+
+.img-pt2{
+    margin-top: 130px;
+    margin-left: 48px;
+}
+
+.candy{
+    margin-bottom: 48px;
+}
+
+.d-p1{
+    margin-bottom: 48px;
+}
