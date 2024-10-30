@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM e JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="titulo">Meu Título</h1>
+    <p id="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eum, at ducimus aliquam delectus
+    hic.</p>
+
+    <div class="imagem-flex">
+        <img id="imagem" src="dog.jpeg" alt="cachorro" width="200">
+        <button class="botao-verde" onclick="alterarImagem()">Alterar Imagem</button>
+    </div>
+
+    <div class="botao-flex">
+        <button class="botao-verde" onclick="alterarTitulo()">Título</button>
+        <button class="botao-verde" onclick="alterarParagrafo()">Parágrafo</button>
+        <button class="botao-verde" onclick="tocarAudio()">Áudio</button>
+    </div>
+
+    <div>
+        <button onclick="toggleBotao()">Altera Botao</button>
+        <button id="btn2">Btn 2</button>
+        <button id="btn3">Btn 3</button>
+    </div>
+
+    <ul>
+        <li><b>Alterar Imagem</b> - altera a Imagem</li>
+        <li><b>Título</b> - altera o conteúdo do Título</li>
+        <li><b>Parágrafo</b> - altera a cor do parágrafo</li>
+        <li><b>Áudio</b> - toca um áudio</li>
+        <li><b>Altera Botao</b> - alterna classes dos botões</li>
+    </ul>
+
+    <audio id="audio" src="Die.wav"></audio>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

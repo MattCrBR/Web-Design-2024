@@ -1,0 +1,28 @@
+.botao-verde {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.botao-toggle {
+    background-color: #ddd;
+    color: black;
+}
+
+.imagem-flex
+{
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    margin-bottom: 20px; 
+}
+
+.botao-flex
+{
+    display: flex;
+    margin-bottom: 10px;
+}
